@@ -112,13 +112,13 @@ const Portfolio = () => {
               </a>
             </div>
             <div className="social-links">
-              <a href="https://github.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/richardngasike" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/richard-ngasike-6247b5232/" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={24} />
               </a>
-              <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/sudopacmansyu" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Twitter size={24} />
               </a>
             </div>
