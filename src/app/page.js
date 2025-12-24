@@ -73,7 +73,7 @@ const Portfolio = () => {
         <div className="nav-mobile-header">
           <div className="nav-mobile-logo">
             <img 
-              src="/signature.png" 
+              src="/richysignature.png" 
               alt="Richard Ngasike Signature" 
               style={{ height: '40px', width: 'auto' }}
             />
