@@ -217,10 +217,10 @@ const Portfolio = () => {
           <h2 className="section-title">Professional Experience</h2>
           <div className="timeline">
             <ExperienceItem
-              year="2025 - Present"
+              year="Nov 2025 - Present"
               company="United Nations"
               role="Developer"
-              description="Contributing to international development initiatives through technology solutions. Developing and maintaining applications that support UN's global programs, working with diverse teams across multiple countries, and implementing solutions that impact communities worldwide. Focus on creating scalable, accessible, and multilingual platforms."
+              description="Contributing to international development initiatives through technology solutions. Developing and maintaining applications that support UN's global programs, working with diverse teams across multiple countries, and implementing solutions that impact communities worldwide. Focus on creating scalable, accessible, and multilingual platforms. As an intern:"
               achievements={[
                 "Built web applications serving 10,000+ users across multiple countries",
                 "Implemented accessibility standards for inclusive digital experiences",
@@ -277,28 +277,28 @@ const Portfolio = () => {
               title="Frontend Development"
               icon={<Code size={24} />}
               skills={[
-                { name: "React & Next.js", percentage: 95 },
-                { name: "JavaScript/TypeScript", percentage: 92 },
-                { name: "HTML5 & CSS3", percentage: 98 },
-                { name: "Tailwind CSS", percentage: 90 }
+                { name: "React & Next.js", percentage: 75 },
+                { name: "JavaScript", percentage: 72 },
+                { name: "HTML5 & CSS3", percentage: 80 },
+                { name: "Tailwind CSS", percentage: 20 }
               ]}
             />
             <TechCategory
               title="Mobile Development"
               icon={<Smartphone size={24} />}
               skills={[
-                { name: "React Native", percentage: 90 },
+                { name: "React Native", percentage: 10 },
                 { name: "Flutter", percentage: 85 },
-                { name: "iOS (Swift)", percentage: 78 },
-                { name: "Android (Kotlin)", percentage: 80 }
+                { name: "iOS (Swift)", percentage: 5 },
+                { name: "Android (Kotlin)", percentage: 30 }
               ]}
             />
             <TechCategory
               title="Backend & Database"
               icon={<Code size={24} />}
               skills={[
-                { name: "Node.js & Express", percentage: 88 },
-                { name: "Python & Django", percentage: 82 },
+                { name: "Node.js & Express", percentage: 70 },
+                { name: "Python & FastAPI", percentage: 52 },
                 { name: "PostgreSQL", percentage: 85 },
                 { name: "MongoDB", percentage: 80 }
               ]}
@@ -307,30 +307,30 @@ const Portfolio = () => {
               title="Security & Testing"
               icon={<Shield size={24} />}
               skills={[
-                { name: "Penetration Testing", percentage: 87 },
-                { name: "Network Security", percentage: 85 },
-                { name: "OWASP Top 10", percentage: 92 },
-                { name: "Burp Suite & Metasploit", percentage: 83 }
+                { name: "Penetration Testing", percentage: 57 },
+                { name: "Network Security", percentage: 55 },
+                { name: "OWASP Top 10", percentage: 62 },
+                { name: "Burp Suite & Metasploit", percentage: 63 }
               ]}
             />
             <TechCategory
               title="DevOps & Tools"
               icon={<Code size={24} />}
               skills={[
-                { name: "Git & GitHub", percentage: 95 },
-                { name: "Docker", percentage: 82 },
-                { name: "AWS & Azure", percentage: 78 },
-                { name: "CI/CD Pipelines", percentage: 80 }
+                { name: "Git & GitHub", percentage: 80 },
+                { name: "Docker", percentage: 40 },
+                { name: "AWS & Azure", percentage: 58 },
+                { name: "CI/CD Pipelines", percentage: 20 }
               ]}
             />
             <TechCategory
               title="Design & UI/UX"
               icon={<Code size={24} />}
               skills={[
-                { name: "Figma", percentage: 88 },
-                { name: "Adobe Creative Suite", percentage: 90 },
-                { name: "Responsive Design", percentage: 95 },
-                { name: "User Research", percentage: 85 }
+                { name: "Adobe Photoshop", percentage: 78 },
+                { name: "Adobe illustrator", percentage: 90 },
+                { name: "Figma", percentage: 55 },
+                { name: "Artificial Intteligence", percentage: 85 }
               ]}
             />
           </div>
@@ -357,15 +357,15 @@ const Portfolio = () => {
               githubLink="https://github.com/richardngasike/ecommerce"
             />
             <ProjectCard
-              category="Mobile App"
-              title="FinTrack - Expense Manager"
-              description="Comprehensive personal finance management application featuring AI-powered expense categorization, budget tracking with customizable alerts, detailed spending analytics with interactive charts, bill reminders, and multi-currency support. Includes offline functionality with cloud sync and bank account integration."
+              category="Website"
+              title="Nairobi Vacant Listing App"
+              description="Vacant listing website where tenants around can list their vacant houses, list amenities, post price, their reachable phone numbers and also location. It eases the work of looking for a home around the City of Nairobi and its environs."
               tags={["React Native", "Firebase", "TypeScript", "AI/ML"]}
               screenshots={[
-                "/projects/fintrack-1.png",
-                "/projects/fintrack-2.png",
-                "/projects/fintrack-3.png",
-                "/projects/fintrack-4.png"
+                "/projects/nvh1.jpeg",
+                "/projects/nvh2.jpeg",
+                "/projects/nvh3.jpeg",
+                "/projects/nvh4.jpeg"
               ]}
               demoLink="https://fintrack-demo.com"
               githubLink="https://github.com/richardngasike/fintrack"
