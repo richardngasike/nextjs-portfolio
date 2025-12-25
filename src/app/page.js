@@ -360,7 +360,7 @@ const Portfolio = () => {
               category="Website"
               title="Nairobi Vacant Listing App"
               description="Vacant listing website where tenants around can list their vacant houses, list amenities, post price, their reachable phone numbers and also location. It eases the work of looking for a home around the City of Nairobi and its environs."
-              tags={["React Native", "Firebase", "TypeScript", "AI/ML"]}
+              tags={["Next.js", "Supabase", "Javascript", "AI/ML"]}
               screenshots={[
                 "/projects/nvh1.jpeg",
                 "/projects/nvh2.jpeg",
@@ -418,7 +418,7 @@ const Portfolio = () => {
               description="Enterprise multi-factor authentication system with support for biometric authentication, SMS/Email OTP, authenticator apps (TOTP), and hardware tokens. Features include encrypted data storage using AES-256, comprehensive audit logging, session management, brute-force protection, and compliance with SOC 2 and ISO 27001 standards."
               tags={["Node.js", "JWT", "Redis", "PostgreSQL", "Docker"]}
               screenshots={[
-                "/projects/secureauth-1.png",
+                "/projects/auth.jpeg",
                 "/projects/secureauth-2.png",
                 "/projects/secureauth-3.png",
                 "/projects/secureauth-4.png"
@@ -437,8 +437,8 @@ const Portfolio = () => {
           <DesignCategory
             title="Logos & Brand Identity"
             designs={[
-              { image: "/designs/logo-1.png", title: "Tech Startup Logo", client: "InnovateTech" },
-              { image: "/designs/logo-2.png", title: "Restaurant Branding", client: "Savory Bites" },
+              { image: "/designs/kimunyak.jpeg", title: "Kimunyak Differently Abled Logo", client: "Non Profit Org" },
+              { image: "/designs/nvhlogo.jpeg", title: "Nairobi Vacant Houses", client: "Start Up" },
               { image: "/designs/logo-3.png", title: "Fitness Brand", client: "FitLife Studio" },
               { image: "/designs/logo-4.png", title: "Fashion Brand", client: "Urban Threads" },
               { image: "/designs/logo-5.png", title: "Coffee Shop Logo", client: "Brew Haven" },
