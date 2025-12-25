@@ -367,7 +367,7 @@ const Portfolio = () => {
                 "/projects/nvh3.jpeg",
                 "/projects/nvh4.jpeg"
               ]}
-              demoLink="https://fintrack-demo.com"
+              demoLink="https://nairobivacanthouses.com"
               githubLink="https://github.com/richardngasike/fintrack"
             />
             <ProjectCard
@@ -376,7 +376,7 @@ const Portfolio = () => {
               description="Advanced automated security vulnerability scanner for web applications. Performs comprehensive security assessments including SQL injection, XSS, CSRF testing, SSL/TLS analysis, and more. Generates detailed PDF reports with risk ratings, proof-of-concept exploits, and actionable remediation steps based on OWASP guidelines and industry best practices."
               tags={["Python", "Flask", "BeautifulSoup", "Selenium"]}
               screenshots={[
-                "/projects/vulnscanner-1.png",
+                "/projects/scanner.jpg",
                 "/projects/vulnscanner-2.png",
                 "/projects/vulnscanner-3.png",
                 "/projects/vulnscanner-4.png"
@@ -390,7 +390,7 @@ const Portfolio = () => {
               description="Enterprise-grade business intelligence dashboard with real-time data visualization using WebSocket connections. Features customizable widgets, interactive D3.js charts, scheduled report generation, role-based access control, and data export in multiple formats. Optimized to handle millions of data points with efficient querying and caching strategies."
               tags={["React", "D3.js", "Express", "WebSocket", "PostgreSQL"]}
               screenshots={[
-                "/projects/dashboard-1.png",
+                "/projects/timeanalysis.jpg",
                 "/projects/dashboard-2.png",
                 "/projects/dashboard-3.png",
                 "/projects/dashboard-4.png"
@@ -404,7 +404,7 @@ const Portfolio = () => {
               description="Feature-rich social networking platform designed for the gaming community. Includes real-time chat with group messaging, tournament organization and bracket systems, global and friend leaderboards, live streaming integration, gaming profile management, achievement tracking, and in-app voice communication. Cross-platform support for seamless gaming experience."
               tags={["Flutter", "Firebase", "WebRTC", "Dart", "Agora"]}
               screenshots={[
-                "/projects/gamehub-1.png",
+                "/projects/gamehub.webp",
                 "/projects/gamehub-2.png",
                 "/projects/gamehub-3.png",
                 "/projects/gamehub-4.png"
