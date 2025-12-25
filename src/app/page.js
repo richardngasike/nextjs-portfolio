@@ -67,7 +67,11 @@ const Portfolio = () => {
       <nav className="nav-mobile" style={{ right: menuOpen ? '0' : '-100%' }}>
         <div className="nav-mobile-header">
           <div className="nav-mobile-logo">
-            <img src="/signature.png" alt="Richard Ngasike Signature" style={{ height: '40px', width: 'auto' }} />
+            <img 
+              src="/signature.png" 
+              alt="Richard Ngasike Signature" 
+              style={{ height: '40px', width: 'auto' }}
+            />
           </div>
           <button className="close-btn" onClick={closeMenu}>
             <X size={28} />
