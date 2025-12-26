@@ -95,9 +95,9 @@ const Portfolio = () => {
             <h1>Richard Ngasike</h1>
             <div className="subtitle">Full-Stack Developer | Graphic Designer | Ethical Hacker</div>
             <p>
-              Award-winning developer with 6+ years of experience crafting innovative solutions 
+              Developer with 6+ years of experience crafting innovative solutions 
               across government, education, and international organizations. Currently contributing 
-              to global development initiatives at the United Nations while maintaining expertise 
+              to global development initiatives at the United Nations as an Intern while maintaining expertise 
               in mobile development, web applications, security, and graphic design.
             </p>
             <div className="hero-stats">
