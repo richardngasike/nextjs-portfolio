@@ -728,6 +728,10 @@ body {
   .nav-desktop {
     display: none;
   }
+  .hero-image {
+    margin-top: 30;;
+    order: -1; /* Moves the blob image to the top */
+  }
   .hamburger {
     display: block;
   }
