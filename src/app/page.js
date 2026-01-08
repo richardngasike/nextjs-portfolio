@@ -139,7 +139,7 @@ const Portfolio = () => {
           <div className="hero-image">
             <div className="blob-container">
               <div className="blob">
-                <img src="/richy1.jpeg" alt="Richard Ngasike" className="profile-image" />
+                <img src="/richy3.png" alt="Richard Ngasike" className="profile-image" />
               </div>
             </div>
           </div>
