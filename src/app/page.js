@@ -93,11 +93,11 @@ const Portfolio = () => {
         <div className="hero-container">
           <div className="hero-content">
             <h1>Richard Ngasike</h1>
-            <div className="subtitle">Full-Stack Developer | Graphic Designer | Ethical Hacker</div>
+            <div className="subtitle">Full-Stack Developer | Graphic Designer</div>
             <p>
               Developer with 6+ years of experience crafting innovative solutions 
               across government, education, and international organizations. Currently contributing 
-              to global development initiatives at the United Nations as an Intern while maintaining expertise 
+              to global development initiatives at the United Nations while maintaining expertise 
               in mobile development, web applications, security, and graphic design.
             </p>
             <div className="hero-stats">
@@ -106,7 +106,7 @@ const Portfolio = () => {
                 <div className="stat-label">Years Experience</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">20+</div>
+                <div className="stat-number">15+</div>
                 <div className="stat-label">Projects Completed</div>
               </div>
               <div className="stat-item">
@@ -183,18 +183,7 @@ const Portfolio = () => {
                 I deliver solutions that drive business growth and user engagement.
               </p>
             </div>
-            <div className="about-card">
-              <div className="about-icon">
-                <Shield size={30} />
-              </div>
-              <h3>Ethical Hacking & Security</h3>
-              <p>
-                Conducting comprehensive penetration testing, vulnerability assessments, and security audits 
-                to protect systems from evolving cyber threats. Proficient in OWASP Top 10, network security, 
-                web application security, and using industry-standard tools like Burp Suite, Metasploit, and Nmap. 
-                Committed to building secure-by-design applications and safeguarding digital assets.
-              </p>
-            </div>
+            
             <div className="about-card">
               <div className="about-icon">
                 <Award size={30} />
