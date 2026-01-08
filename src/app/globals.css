@@ -1118,15 +1118,17 @@ body {
 }
 
 .github-link {
-  background: rgba(255, 255, 255, 0.1);
-  color: #e2e8f0;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.1);
+  color: #000000;
+  border: 1px solid rgba(255, 0, 0, 0.2);
 }
 
 .github-link:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
+  color: #ff0000;
+  border: 1px solid rgba(255, 0, 0, 0.2);
 }
 
 /* ==================== GRAPHIC DESIGNS SECTION ==================== */

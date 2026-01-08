@@ -661,7 +661,7 @@ const ProjectCard = ({ category, title, description, tags, screenshots, demoLink
         <div className="project-links">
           <a href={demoLink} className="project-link demo-link" target="_blank" rel="noopener noreferrer">
             <ExternalLink size={16} />
-            View Demo
+            Demo
           </a>
           <a href={githubLink} className="project-link github-link" target="_blank" rel="noopener noreferrer">
             <Github size={16} />
