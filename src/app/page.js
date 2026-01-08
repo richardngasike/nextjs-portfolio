@@ -293,12 +293,12 @@ const Portfolio = () => {
               ]}
             />
             <TechCategory
-              title="Security & Testing"
+              title="Top Hacking Tools"
               icon={<Shield size={24} />}
               skills={[
-                { name: "Penetration Testing", percentage: 57 },
-                { name: "Network Security", percentage: 55 },
-                { name: "OWASP Top 10", percentage: 62 },
+                { name: "Hydra", percentage: 57 },
+                { name: "John the ripper", percentage: 55 },
+                { name: "Wireshark", percentage: 62 },
                 { name: "Burp Suite & Metasploit", percentage: 63 }
               ]}
             />
@@ -308,8 +308,8 @@ const Portfolio = () => {
               skills={[
                 { name: "Git & GitHub", percentage: 80 },
                 { name: "Docker", percentage: 40 },
-                { name: "AWS & Azure", percentage: 58 },
-                { name: "CI/CD Pipelines", percentage: 20 }
+                { name: "AWS & DigitaL Ocean", percentage: 58 }
+              
               ]}
             />
             <TechCategory
@@ -359,6 +359,21 @@ const Portfolio = () => {
               demoLink="https://nairobivacanthouses.com"
               githubLink="https://github.com/richardngasike/fintrack"
             />
+            <ProjectCard
+              category="E-Commerce Website"
+              title="Naretu Ecommerce"
+              description="A modern multi-vendor e-commerce platform designed to connect buyers and sellers through a seamless online marketplace. Naretu.com enables vendors to list products by category, manage inventory, set prices, and track orders, while customers can browse, search, compare products, and complete secure online purchases with ease."
+              tags={["Next.js", "CSS", "PostgreSQL",  "Mpesa Gateway", "AI/ML"]}
+              screenshots={[
+                "/projects/naretu1.jpeg",
+                "/projects/naretu2.jpeg",
+                "/projects/naretu3.jpeg",
+                "/projects/naretu4.jpeg"
+              ]}
+              demoLink="https://naretu.com"
+              githubLink="https://github.com/richardngasike/naretu-ecommerce"
+            />
+
             <ProjectCard
               category="Security Tool"
               title="VulnScanner Pro"
