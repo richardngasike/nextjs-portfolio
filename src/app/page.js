@@ -44,7 +44,7 @@ const Portfolio = () => {
             <img 
               src="/richard-signature.png" 
               alt="Richard Ngasike Signature" 
-              style={{ height: '60px', width: 'auto' }}
+              style={{ height: '50px', width: 'auto' }}
             />
           </div>
           <nav>
