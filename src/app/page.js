@@ -42,9 +42,9 @@ const Portfolio = () => {
         <div className="header-container">
           <div className="logo">
             <img 
-              src="/richysignature.png" 
+              src="/richard-signature.png" 
               alt="Richard Ngasike Signature" 
-              style={{ height: '45px', width: 'auto' }}
+              style={{ height: '60px', width: 'auto' }}
             />
           </div>
           <nav>
@@ -331,20 +331,6 @@ const Portfolio = () => {
         <div className="section-container">
           <h2 className="section-title">Featured Projects</h2>
           <div className="projects-grid">
-            <ProjectCard
-              category="Web Application"
-              title="UNAIDS Microsite - UN"
-              description="Full-stack United Nations microsite developed for the UNAIDS organisation to update, manage, and download country profiles and sustainability roadmaps, supported by a robust backend API and a role-based admin panel for data validation and publishing.."
-              tags={["Next.js", "FastAPI", "PostgreSQL", "Supabase", "CSS"]}
-              screenshots={[
-                "/projects/unaids1.jpeg",
-                 "/projects/unaids2.jpeg",
-                "/projects/unaids3.jpeg",
-                "/projects/unaids4.jpeg", 
-              ]} 
-              demoLink="https://unaids.vercel.app"
-              githubLink="https://github.com/richardngasike/ecommerce"
-            />
             <ProjectCard
               category="Website"
               title="Nairobi Vacant Listing App"
