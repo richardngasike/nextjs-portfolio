@@ -206,18 +206,6 @@ const Portfolio = () => {
           <h2 className="section-title">Professional Experience</h2>
           <div className="timeline">
             <ExperienceItem
-              year="Nov 2025 - Present"
-              company="United Nations"
-              role="Developer"
-              description="Contributing to international development initiatives through technology solutions. Developing and maintaining applications that support UN's global programs, working with diverse teams across multiple countries, and implementing solutions that impact communities worldwide. Focus on creating scalable, accessible, and multilingual platforms. As an intern:"
-              achievements={[
-                "Built web applications serving 10,000+ users across multiple countries",
-                "Implemented accessibility standards for inclusive digital experiences",
-                "Collaborated with international teams on development best practices",
-                "Contributed to open-source projects supporting sustainable development goals"
-              ]}
-            />
-            <ExperienceItem
               year="2024"
               company="Extravis Solutions Africa"
               role="Graphic Designer"
